@@ -1,0 +1,33 @@
+Setting,Micro F1,Macro F1,Mean AUC,Hamming Loss
+Robust -- Clean,0.2447,0.1975,0.7713,0.073
+Robust vs FGSM eps=8,0.2476,0.1808,0.7703,0.0907
+Robust vs FGSM eps=16,0.2319,0.1676,0.738,0.1057
+Robust vs FGSM eps=32,0.2015,0.1405,0.6951,0.1273
+Robust vs PGD eps=8,0.2108,0.1602,0.7524,0.1255
+Robust vs PGD eps=16,0.1591,0.1215,0.7166,0.1966
+Robust vs PGD eps=32,0.1396,0.1035,0.6835,0.232
+Robust vs DeepFool eps=8,0.1126,0.1029,0.692,0.2236
+Robust vs DeepFool eps=16,0.0545,0.0473,0.4783,0.4558
+Robust vs DeepFool eps=32,0.0414,0.0299,0.3016,0.5916
+Robust vs C&W eps=8,0.1275,0.1234,0.6949,0.2281
+Robust vs C&W eps=16,0.0605,0.0503,0.4418,0.4507
+Robust vs C&W eps=32,0.044,0.0287,0.2133,0.5788
+Robust vs Square eps=8,0.2374,0.207,0.7569,0.101
+Robust vs Square eps=16,0.2015,0.1797,0.731,0.1283
+Robust vs Square eps=32,0.1454,0.1269,0.694,0.2212
+Combined -- Clean,0.1375,0.1197,0.6631,0.1552
+Combined vs FGSM eps=8,0.1558,0.1262,0.6829,0.1398
+Combined vs FGSM eps=16,0.1631,0.1227,0.6659,0.1293
+Combined vs FGSM eps=32,0.1441,0.0856,0.6166,0.1035
+Combined vs PGD eps=8,0.1486,0.1218,0.6657,0.1581
+Combined vs PGD eps=16,0.141,0.1022,0.6601,0.1707
+Combined vs PGD eps=32,0.1377,0.0916,0.6515,0.169
+Combined vs DeepFool eps=8,0.1111,0.0889,0.6154,0.218
+Combined vs DeepFool eps=16,0.0809,0.0631,0.5396,0.2843
+Combined vs DeepFool eps=32,0.0647,0.0421,0.4793,0.2799
+Combined vs C&W eps=8,0.1173,0.0938,0.6067,0.2329
+Combined vs C&W eps=16,0.0888,0.0746,0.5357,0.3029
+Combined vs C&W eps=32,0.0679,0.0474,0.4807,0.3007
+Combined vs Square eps=8,0.1423,0.1284,0.6526,0.1721
+Combined vs Square eps=16,0.1378,0.1152,0.6272,0.1788
+Combined vs Square eps=32,0.124,0.0917,0.6207,0.1917
